@@ -1,0 +1,37 @@
+{
+  "name": "bedrock-redis",
+  "version": "0.0.1-dev",
+  "description": "Bedrock redis module",
+  "main": "./lib/cache",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-redis"
+  },
+  "keywords": [
+    "bedrock",
+    "redis",
+    "key-value cache"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-redis/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-redis",
+  "dependencies": {
+    "async": "^1.4.0",
+    "redis": "^0.12.1"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  }
+}
