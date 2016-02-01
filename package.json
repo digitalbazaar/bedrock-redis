@@ -1,6 +1,6 @@
 {
   "name": "bedrock-redis",
-  "version": "0.0.1-dev",
+  "version": "1.0.0",
   "description": "Bedrock redis module",
   "main": "./lib/cache",
   "scripts": {
