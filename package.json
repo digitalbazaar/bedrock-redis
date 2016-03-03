@@ -1,6 +1,6 @@
 {
   "name": "bedrock-redis",
-  "version": "1.0.1-dev",
+  "version": "2.0.0-dev",
   "description": "Bedrock redis module",
   "main": "./lib/cache",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-redis",
   "dependencies": {
+    "bedrock": "^1.0.0",
     "redis": "^0.12.1"
   },
   "peerDependencies": {
