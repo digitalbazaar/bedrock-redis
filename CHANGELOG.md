@@ -1,5 +1,8 @@
 # bedrock-redis ChangeLog
 
+### Changed
+- Update redis dependency.
+
 ## 2.0.1 - 2016-03-15
 
 ### Changed
