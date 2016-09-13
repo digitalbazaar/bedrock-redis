@@ -5,7 +5,7 @@
 ### Changed
 - **BREAKING**: Update redis dependency.
 - Handle more events.
-- Handle reconnects with slow backoff and random delay fuzz.
+- Handle reconnects with slow backoff and random delay jitter.
 
 ## 2.0.1 - 2016-03-15
 
