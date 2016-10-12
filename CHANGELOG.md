@@ -1,5 +1,7 @@
 # bedrock-redis ChangeLog
 
+## 3.0.0 - 2016-10-12
+
 ### Changed
 - **BREAKING**: Update redis dependency.
 - Handle more events.
