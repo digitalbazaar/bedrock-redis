@@ -1,7 +1,11 @@
 # bedrock-redis ChangeLog
 
+### Changed
+- Use 'backo' for backoff calculation.
+- Logging cleanup.
+
 ### Added
-- Backoff control and config.
+- Backoff config.
 - Max connection times.
 
 ## 3.0.0 - 2016-10-12
