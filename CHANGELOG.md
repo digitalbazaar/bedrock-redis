@@ -1,5 +1,9 @@
 # bedrock-redis ChangeLog
 
+### Added
+- Backoff control and config.
+- Max connection times.
+
 ## 3.0.0 - 2016-10-12
 
 ### Changed
