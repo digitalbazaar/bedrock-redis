@@ -1,5 +1,7 @@
 # bedrock-redis ChangeLog
 
+## 3.1.0 - 2016-10-14
+
 ### Changed
 - Use 'backo' for backoff calculation.
 - Logging cleanup.
