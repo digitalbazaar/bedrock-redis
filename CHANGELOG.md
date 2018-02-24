@@ -1,5 +1,10 @@
 # bedrock-redis ChangeLog
 
+## 3.2.0 - 2018-02-24
+
+## Added
+- New `Client` class that allows additional client instances to be created.
+
 ## 3.1.0 - 2016-10-14
 
 ### Changed
