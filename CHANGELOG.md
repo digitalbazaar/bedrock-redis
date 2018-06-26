@@ -1,8 +1,13 @@
 # bedrock-redis ChangeLog
 
+## 3.3.0 - 26-06-2018
+
+### Added
+- `prefix` option. A string used to prefix all used keys (e.g. namespace:test).
+
 ## 3.2.0 - 2018-02-24
 
-## Added
+### Added
 - New `Client` class that allows additional client instances to be created.
 
 ## 3.1.0 - 2016-10-14
