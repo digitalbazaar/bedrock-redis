@@ -23,6 +23,7 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-redis",
   "dependencies": {
     "backo": "^1.1.0",
+    "promise-redis": "0.0.5",
     "redis": "^2.8.0"
   },
   "peerDependencies": {
