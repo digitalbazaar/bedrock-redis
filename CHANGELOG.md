@@ -1,5 +1,8 @@
 # bedrock-redis ChangeLog
 
+### Added
+- Support promises.
+
 ## 3.3.1 - 2018-06-26
 
 ### Fixed
