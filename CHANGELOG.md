@@ -1,7 +1,11 @@
 # bedrock-redis ChangeLog
 
+## 3.4.0 - 2018-08-22
+
 ### Added
-- Support promises.
+- Support promises. Uses `promise-redis` which requires
+  a peer dependency of `redis` (but specifies it via a
+  regular dependency of version "*").
 
 ## 3.3.1 - 2018-06-26
 
