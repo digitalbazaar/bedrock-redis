@@ -15,7 +15,7 @@
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
-    "url": "http://digitalbazaar.com"
+    "url": "https://digitalbazaar.com/"
   },
   "bugs": {
     "url": "https://github.com/digitalbazaar/bedrock-redis/issues"
@@ -27,7 +27,7 @@
     "redis": "^2.8.0"
   },
   "peerDependencies": {
-    "bedrock": "^1.12.0"
+    "bedrock": "1.12.0 - 3.x"
   },
   "directories": {
     "lib": "./lib"
