@@ -1,6 +1,6 @@
 {
   "name": "bedrock-redis",
-  "version": "3.4.1-0",
+  "version": "3.4.1",
   "description": "Bedrock redis module",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "./lib",
