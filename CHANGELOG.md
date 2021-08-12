@@ -1,5 +1,10 @@
 # bedrock-redis ChangeLog
 
+## 4.0.0 - TBD
+
+### Changed
+- **BREAKING**: Use `redis@3`, see [changelog](https://github.com/NodeRedis/node-redis/blob/master/CHANGELOG.md#v300---09-feb-2020).
+
 ## 3.4.1 - 2019-11-12
 
 ### Changed
