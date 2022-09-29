@@ -1,5 +1,14 @@
 # bedrock-redis ChangeLog
 
+## 4.0.0 - 2022-xx-xx
+
+### Changed
+- **Breaking** Convert to esm.
+- **Breaking** Update redis client to v4.
+- **Breaking** Native async/await without additional packages.
+- **Breaking** Use namespaced and up to date bedrock packages throughout.
+- **Breaking** Remove prefix option.
+
 ## 3.4.1 - 2019-11-12
 
 ### Changed
