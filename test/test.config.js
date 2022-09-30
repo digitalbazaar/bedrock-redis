@@ -11,3 +11,5 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 config.mocha.options.fullTrace = true;
 config.mocha.tests.push(path.join(__dirname, 'mocha'));
 
+// Only allow 1 retry for testing
+config.redis.retryOptions.retries = 1;
