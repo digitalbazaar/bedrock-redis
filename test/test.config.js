@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019-2021 Dogwood Logic, Inc. All rights reserved.
+ * Copyright (c) 2022 Digital Bazaar, Inc. All rights reserved.
  */
 import * as bedrock from '@bedrock/core';
 import {fileURLToPath} from 'node:url';

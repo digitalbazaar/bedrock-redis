@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2021 Dogwood Logic, Inc. All rights reserved.
+ * Copyright (c) 2022 Digital Bazaar, Inc. All rights reserved.
  */
 import {client} from '@bedrock/redis';
 
