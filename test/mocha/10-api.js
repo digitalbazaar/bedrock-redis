@@ -14,7 +14,6 @@ describe('api', () => {
     try {
       const key = 'testStr';
       res = await client.set(key, 'redis-test');
-      // login success should return undefined
     } catch(error) {
       err = error;
     }
@@ -27,7 +26,6 @@ describe('api', () => {
     try {
       const key = 'testStr';
       res = await client.get(key);
-      // login success should return undefined
     } catch(error) {
       err = error;
     }
