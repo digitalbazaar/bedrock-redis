@@ -3,11 +3,10 @@
 ## 4.0.0 - 2022-xx-xx
 
 ### Changed
-- **Breaking** Convert to esm.
-- **Breaking** Update redis client to v4.
-- **Breaking** Native async/await without additional packages.
-- **Breaking** Use namespaced and up to date bedrock packages throughout.
-- **Breaking** Remove prefix option.
+- **BREAKING** Convert to esm.
+- **BREAKING** Update redis client to v4, use node-redis directly.
+- **BREAKING** Use namespaced and up to date bedrock packages throughout.
+- **BREAKING** Remove prefix option, update backoff options.
 
 ## 3.4.1 - 2019-11-12
 
