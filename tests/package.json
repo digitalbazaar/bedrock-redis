@@ -1,0 +1,27 @@
+{
+  "name": "@bedrock/redis-test",
+  "version": "1.0.0",
+  "description": "Test suites for bedrock-redis",
+  "type": "module",
+  "scripts": {
+    "test": "node --preserve-symlinks test.js test",
+    "coverage": "c8 --reporter=text --reporter=text-summary npm test",
+    "coverage-ci": "c8 --reporter=text-lcov npm test",
+    "coverage-report": "c8 report"
+  },
+  "dependencies": {
+    "@bedrock/core": "^6.0.1",
+    "@bedrock/redis": "file:..",
+    "@bedrock/test": "^8.0.5",
+    "c8": "^7.12.0"
+  },
+  "c8": {
+    "excludeNodeModules": false,
+    "include": [
+      "node_modules/@bedrock/redis/**"
+    ],
+    "exclude": [
+      "node_modules/@bedrock/redis/node_modules/**"
+    ]
+  }
+}
