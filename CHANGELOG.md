@@ -7,6 +7,7 @@
 - **BREAKING** Update redis client to v4, use node-redis directly.
 - **BREAKING** Use namespaced and up to date bedrock packages throughout.
 - **BREAKING** Remove prefix option, update backoff options.
+- **BREAKING** Change min/max config options to minTimeout/maxTimeout.
 
 ## 3.4.1 - 2019-11-12
 
