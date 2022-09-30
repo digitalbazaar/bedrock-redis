@@ -1,7 +1,7 @@
 /*!
  * Copyright (c) 2022 Digital Bazaar, Inc. All rights reserved.
  */
-import {client} from '@bedrock/redis';
+import {client, createClient} from '@bedrock/redis';
 
 describe('api', () => {
   it('should have a valid redis client', async () => {
@@ -31,5 +31,15 @@ describe('api', () => {
     }
     should.not.exist(err);
     res.should.equal('redis-test');
+  });
+  it('should attempt to reconnect', async () => {
+    let err;
+    try {
+      await createClient({host: 'error'});
+    } catch(error) {
+      err = error.message;
+    }
+    should.exist(err);
+    err.should.equal('Exceeded max (1) connection attempts.');
   });
 });
