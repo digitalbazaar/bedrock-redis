@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test suites for bedrock-redis",
   "type": "module",
+  "private": true,
   "scripts": {
     "test": "node --preserve-symlinks test.js test",
     "coverage": "c8 --reporter=text --reporter=text-summary npm test",
