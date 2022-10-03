@@ -9,9 +9,9 @@
 - **BREAKING** Use namespaced and up to date bedrock packages throughout.
 - **BREAKING** Remove `prefix` option.
 - **BREAKING** Update retry options due to changing from `backo` package to `retry`:
-  - Rename `bedrock.config.redis.retry` to `bedrock.config.redis.retryOptions`.
   - Rename `min`/`max` to `minTimeout`/`maxTimeout`.
   - Rename `maxTimesConnected` to `retries`.
+  - Introduce `randomize` option to mimic `jitter` functionality.
   - Remove `jitter` and `maxTotal`.
 - **BREAKING**: Require Node.js >=16.
 - Use `package.json` `files` field.
