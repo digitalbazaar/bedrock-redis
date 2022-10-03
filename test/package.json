@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "test": "node --preserve-symlinks test.js test",
-    "coverage": "c8 --reporter=text --reporter=text-summary npm test",
-    "coverage-ci": "c8 --reporter=lcov npm test",
+    "coverage": "c8 npm test",
+    "coverage-ci": "c8 --reporter=lcovonly --reporter=text --reporter=text-summary npm test",
     "coverage-report": "c8 report"
   },
   "dependencies": {
@@ -23,6 +23,11 @@
     ],
     "exclude": [
       "node_modules/@bedrock/redis/node_modules/**"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "text"
     ]
   }
 }
