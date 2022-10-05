@@ -2,23 +2,23 @@
 
 ## 4.0.0 - 2022-xx-xx
 
+### Added
+- Lint code.
+- Add tests.
+
 ### Changed
 - **BREAKING**: Rename package from `bedrock-redis` to `@bedrock/redis`.
-- **BREAKING** Convert to module (ESM).
-- **BREAKING** Update redis client to v4, use node-redis directly.
-- **BREAKING** Use namespaced and up to date bedrock packages throughout.
-- **BREAKING** Remove `prefix` option.
-- **BREAKING** Update retry options due to changing from `backo` package to `retry`:
+- **BREAKING**: Convert to module (ESM).
+- **BREAKING**: Update redis client to v4, use node-redis directly.
+- **BREAKING**: Use namespaced and up to date bedrock packages throughout.
+- **BREAKING**: Remove `prefix` option.
+- **BREAKING**: Update retry options due to changing from `backo` package to `retry`:
   - Rename `min`/`max` to `minTimeout`/`maxTimeout`.
   - Rename `maxTimesConnected` to `retries`.
   - Introduce `randomize` option to mimic `jitter` functionality.
   - Remove `jitter` and `maxTotal`.
 - **BREAKING**: Require Node.js >=16.
 - Use `package.json` `files` field.
-
-### Added
-- Lint code.
-- Add tests.
 
 ## 3.4.1 - 2019-11-12
 
