@@ -1,6 +1,6 @@
 # bedrock-redis ChangeLog
 
-## 4.0.0 - 2022-xx-xx
+## 4.0.0 - 2022-10-05
 
 ### Added
 - Lint code.
