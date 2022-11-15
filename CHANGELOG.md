@@ -1,5 +1,11 @@
 # bedrock-redis ChangeLog
 
+## 4.1.0 - 2022-xx-xx
+
+### Added
+- Add `socket` and `client` configs. These map directly to the options
+  available on the node-redis `createClient` method.
+  
 ## 4.0.0 - 2022-10-05
 
 ### Added
